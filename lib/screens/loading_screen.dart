@@ -23,6 +23,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
         child: ElevatedButton(
           onPressed: () {
             // obtém a localização atual
+            getLocation();
           },
           child: const Text('Obter Localização'),
         ),
